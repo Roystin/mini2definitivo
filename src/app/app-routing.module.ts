@@ -6,12 +6,16 @@ import { HomeComponent } from './home/home.component';
 import { SearchComponent } from './search/search.component';
 import { UnheroeComponent } from './unheroe/unheroe.component';
 import {UsuariosComponent} from './usuarios/usuarios.component';
+import { VideoComponent } from './video/video.component';
+import { CreditosComponent } from './creditos/creditos.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'heroes', component: HeroesComponent },
   {path: 'about', component: AboutComponent },
   {path: 'usuarios', component: UsuariosComponent},
+  {path: 'video', component: VideoComponent},
+  {path: 'creditos', component: CreditosComponent},
 
   {path: 'heroe/:id', component: UnheroeComponent},
   {path: 'buscador/:nombreh', component:SearchComponent},
